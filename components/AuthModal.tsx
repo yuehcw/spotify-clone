@@ -53,6 +53,14 @@ const AuthModal = () => {
             },
           },
         }}
+        localization={{
+          variables: {
+            sign_in: {
+              email_input_placeholder: "Test account: yuehcw@uci.edu",
+              password_input_placeholder: "Test password: 123456",
+            },
+          },
+        }}
       />
     </Modal>
   );
